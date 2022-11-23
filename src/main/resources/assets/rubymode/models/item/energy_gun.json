@@ -1,0 +1,7 @@
+{
+  "parent": "rubymode:custom/lasergun",
+  "textures": {
+    "3": "rubymode:blocks/ciocan_albastru",
+    "particle": "rubymode:items/guntexture"
+  }
+}

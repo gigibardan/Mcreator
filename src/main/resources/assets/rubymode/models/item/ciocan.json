@@ -1,0 +1,7 @@
+{
+  "parent": "rubymode:custom/ciocan_albastruc",
+  "textures": {
+    "609": "rubymode:blocks/ciocan_albastru",
+    "particle": "rubymode:items/ciocan_albastru"
+  }
+}

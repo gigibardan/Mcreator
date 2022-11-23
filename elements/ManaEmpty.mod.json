@@ -1,0 +1,68 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "manaempty.png",
+          "use1Xscale": true,
+          "name": "manaempty.png",
+          "x": 126,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manaempty.png",
+          "use1Xscale": true,
+          "name": "manaempty.png",
+          "x": 150,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manaempty.png",
+          "use1Xscale": true,
+          "name": "manaempty.png",
+          "x": 174,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manaempty.png",
+          "use1Xscale": true,
+          "name": "manaempty.png",
+          "x": 198,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "manaempty.png",
+          "use1Xscale": true,
+          "name": "manaempty.png",
+          "x": 222,
+          "y": 171
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 59,
+      "oy": 20,
+      "snapOnGrid": true
+    }
+  }
+}

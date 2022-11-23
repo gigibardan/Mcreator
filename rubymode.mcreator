@@ -1,0 +1,852 @@
+{
+  "mod_elements": [
+    {
+      "name": "RubyRightClickedInAir",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe"
+    },
+    {
+      "name": "RubyArmourArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armour_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RubyArmourArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armour_armor_helmet_recipe"
+    },
+    {
+      "name": "RubyArmourArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armour_armor_body_recipe"
+    },
+    {
+      "name": "RubyArmourArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armour_armor_leggings_recipe"
+    },
+    {
+      "name": "RubyArmourArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armour_armor_boots_recipe"
+    },
+    {
+      "name": "CheckArmour",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_armour",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword"
+    },
+    {
+      "name": "RubySwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyTarnacop",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tarnacop"
+    },
+    {
+      "name": "RubyTarnacopBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tarnacop_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaReg",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_reg",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CocanulCelCiocanRightClickedInAir",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocanul_cel_ciocan_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ciocan",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciocan"
+    },
+    {
+      "name": "ManaEmpty",
+      "type": "overlay",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_empty"
+    },
+    {
+      "name": "ManaF1",
+      "type": "overlay",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_f_1"
+    },
+    {
+      "name": "ManaF2",
+      "type": "overlay",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_f_2"
+    },
+    {
+      "name": "ManaF3",
+      "type": "overlay",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_f_3"
+    },
+    {
+      "name": "ManaF4",
+      "type": "overlay",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_f_4"
+    },
+    {
+      "name": "ManaF5",
+      "type": "overlay",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_f_5"
+    },
+    {
+      "name": "MF1",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mf_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MF2",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mf_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MF3",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mf_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MF4",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mf_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MF5",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mf_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RobotFollow",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robot_follow"
+    },
+    {
+      "name": "RobotAttack",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robot_attack"
+    },
+    {
+      "name": "RoboStay",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robo_stay"
+    },
+    {
+      "name": "ChangeRobot",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_robot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VerifyRobot",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verify_robot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sceptru",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sceptru"
+    },
+    {
+      "name": "DispayHealth",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dispay_health",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block"
+    },
+    {
+      "name": "GenerareSansa",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generare_sansa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnItems",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnEntity",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlegeCaz",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alege_caz",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaserBullet",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_bullet"
+    },
+    {
+      "name": "EnergyGun",
+      "type": "rangeditem",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_gun"
+    },
+    {
+      "name": "EnergyGunWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_gun_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnergyGunProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_gun_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnergyGunProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_gun_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Boss",
+      "type": "livingentity",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss"
+    },
+    {
+      "name": "CoolDown",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cool_down",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BossUpdate",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneMinion",
+      "type": "livingentity",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_minion"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "isClicked",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "sansaRandom",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "numarCazuri",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "energyy",
+      "files": [
+        "energy"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.rubymode.robot_follow_spawn_egg": "RobotFollow Spawn Egg",
+      "block.rubymode.lucky_block": "Lucky Block",
+      "item.rubymode.ruby_armour_armor_helmet": "RubyArmour Helmet",
+      "item.rubymode.ruby_tarnacop": "Ruby Tarnacop",
+      "item.rubymode.ruby_armour_armor_leggings": "RubyArmour Leggings",
+      "item.rubymode.ruby_armour_armor_boots": "RubyArmour Boots",
+      "entity.rubymode.robot_follow": "RobotFollow",
+      "item.rubymode.ruby_armour_armor_chestplate": "RubyArmour Chestplate",
+      "item.rubymode.energy_gun": "Energy Gun",
+      "item.rubymode.boss_spawn_egg": "Boss Spawn Egg",
+      "entity.rubymode.stone_minion": "Stone Minion",
+      "item.rubymode.laser_bullet": "Laser Bullet",
+      "item.rubymode.ruby": "Ruby",
+      "item.rubymode.stone_minion_spawn_egg": "Stone Minion Spawn Egg",
+      "item.rubymode.ciocan": "Ciocan",
+      "item.rubymode.robo_stay_spawn_egg": "RobotStay Spawn Egg",
+      "entity.rubymode.robo_stay": "RobotStay",
+      "item.rubymode.sceptru": "Sceptru",
+      "subtitles.energyy": "",
+      "item.rubymode.ruby_sword": "Ruby Sword",
+      "item.rubymode.robot_attack_spawn_egg": "RobotAttack Spawn Egg",
+      "entity.rubymode.robot_attack": "RobotAttack",
+      "entity.rubymode.boss": "Boss",
+      "item.rubymode.ruby_axe": "Ruby Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rubymode",
+    "modName": "RubyMode",
+    "version": "1.0.0",
+    "author": "Gigi\u0026Anca, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.rubymode",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

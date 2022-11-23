@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "ciocan_albastru"
+      },
+      "name": "default"
+    }
+  }
+}

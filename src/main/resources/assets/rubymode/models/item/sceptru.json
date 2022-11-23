@@ -1,0 +1,7 @@
+{
+  "parent": "rubymode:custom/staff",
+  "textures": {
+    "2": "rubymode:blocks/stafftexture",
+    "particle": "rubymode:items/stafftexture"
+  }
+}

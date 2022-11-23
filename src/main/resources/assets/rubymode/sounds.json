@@ -1,0 +1,11 @@
+{
+  "energyy": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rubymode:energy",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "rubymode:custom/luckyblock",
+  "textures": {
+    "all": "rubymode:blocks/lucky_block",
+    "particle": "rubymode:blocks/lucky_block",
+    "0": "rubymode:blocks/lucky_block"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOW",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "manafull.png",
+          "use1Xscale": true,
+          "name": "manafull.png",
+          "x": 198,
+          "y": 171
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "MF4"
+    },
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 59,
+      "oy": 20,
+      "snapOnGrid": true
+    }
+  }
+}
